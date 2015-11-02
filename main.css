@@ -1,0 +1,15 @@
+body {
+	background: url('images/mountains.jpeg') no-repeat center center fixed;
+	background-size: cover;
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.table {
+	margin-top: 75px;
+	color: white;
+	background: rgba(10, 9, 9, 0.50);
+}
