@@ -1,10 +1,10 @@
-var app = angular.module("queueApp", []);
+var app = angular.module("queueApp", ['ngRoute']);
 
-app.config($routeProvider, function(){
+app.config(function($routeProvider){
 	$routeProvider
 
 	.when('/', {
-
-		
-	})
+		templateUrl: 'views/queue/queue.html',
+		controller: 'QController'
+	});
 })

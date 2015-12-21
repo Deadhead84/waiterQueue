@@ -1,15 +1,30 @@
 body {
 	background: url('images/mountains.jpeg') no-repeat center center fixed;
 	background-size: cover;
-  min-height: 2000px;
+  	min-height: 2000px;
+  	font-family: 'Exo', sans-serif;
 }
 
 .navbar-static-top {
-  margin-bottom: 19px;
+  	margin-bottom: 19px;
 }
-
+thead {
+	font-size: 20px;
+	text-transform: uppercase;
+}
 .table {
 	margin-top: 75px;
 	color: white;
 	background: rgba(10, 9, 9, 0.50);
+	border-radius: 5px;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.form {
+	background: rgba(10, 9, 9, 0.50);
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	color: white;
 }
